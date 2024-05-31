@@ -676,6 +676,7 @@
 				DEVELOPMENT_TEAM = PZYM8XX95Q;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = AztecExample;
 				PRODUCT_BUNDLE_IDENTIFIER = org.wordpress.AztecExample;
@@ -696,6 +697,7 @@
 				DEVELOPMENT_TEAM = PZYM8XX95Q;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = AztecExample;
 				PRODUCT_BUNDLE_IDENTIFIER = org.wordpress.AztecExample.Release;
@@ -834,6 +836,7 @@
 				DEVELOPMENT_TEAM = PZYM8XX95Q;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = AztecExample;
 				PRODUCT_BUNDLE_IDENTIFIER = org.wordpress.AztecExample;
@@ -916,6 +919,7 @@
 				DEVELOPMENT_TEAM = 99KV9Z6BKV;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = AztecExample;
 				PRODUCT_BUNDLE_IDENTIFIER = org.wordpress.AztecExample.Alpha;

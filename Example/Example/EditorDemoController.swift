@@ -257,7 +257,7 @@ class EditorDemoController: UIViewController {
         rightMargin -= view.safeAreaInsets.right
 
         scrollInsets.right = -rightMargin
-        editorView.scrollIndicatorInsets = scrollInsets
+//        editorView.scrollIndicatorInsets = scrollInsets
     }
 
     func updateTitleHeight() {
@@ -620,7 +620,8 @@ extension EditorDemoController {
         case .horizontalruler:
             insertHorizontalRuler()
         case .code:
-            toggleCode()
+            togglePre()
+//            toggleCode()
         default:
             break
         }
@@ -649,6 +650,10 @@ extension EditorDemoController {
 
     @objc func toggleBlockquote() {
         richTextView.toggleBlockquote(range: richTextView.selectedRange)
+    }
+
+    @objc func togglePre() {
+        richTextView.togglePre(range: richTextView.selectedRange)
     }
 
     @objc func toggleCode() {
